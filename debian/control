@@ -1,4 +1,4 @@
-Source: paintitblack-lxde-settings
+Source: patience-lxde-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -12,11 +12,11 @@ Vcs-Git: https://git.siduction.org/extra/settings-lxde.git
 Vcs-Browser: https://git.siduction.org/extra/settings-lxde.git
 
 # lxde Settings
-Package: paintitblack-lxde-settings
+Package: patience-lxde-settings
 Architecture: all
 Depends: ${misc:Depends},
          lxde-common,
-         paintitblack-common-settings
+         patience-common-settings
 Description: LXDE settings in installed mode
  Provides default settings for appearance and applications of the LXDE
  desktop.
@@ -25,7 +25,7 @@ Description: LXDE settings in installed mode
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: paintitblack-lxde-livesettings
+Package: patience-lxde-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          lxpanel,
@@ -33,12 +33,12 @@ Depends: ${misc:Depends},
          sidu-installer (>= 2014.01.10),
          siduction-icons,
          openbox | x-window-manager,
-         paintitblack-lxde-artwork,
-         paintitblack-lxde-settings,
-         paintitblack-common-livesettings,
-         paintitblack-sddm-livesettings
-         | paintitblack-ligthdm-gtk-livesettings
-         | paintitblack-gdm3-livesettings
+         patience-lxde-artwork,
+         patience-lxde-settings,
+         patience-common-livesettings,
+         patience-sddm-livesettings
+         | patience-ligthdm-gtk-livesettings
+         | patience-gdm3-livesettings
 Description: LXDE settings in live mode
  Provides default settings for appearance and applications of the LXDE
  desktop in live mode.

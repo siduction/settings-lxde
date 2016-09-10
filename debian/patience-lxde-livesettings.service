@@ -1,0 +1,11 @@
+[Unit]
+Description=LXDE cheatcodes in live media
+ConditionPathExists=/usr/share/patience-lxde-livesettings/
+After=patience-common-livesettings.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/patience-lxde-livesettings/lxde-cheatcodes start
+
+[Install]
+WantedBy=graphical.target
