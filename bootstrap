@@ -62,12 +62,19 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     ./debtemplate/livesettings.service \
     > ./debian/${CODENAME_SAFE}-lxde-livesettings.service
 
-[ -d lxde ] && rm -r lxde
-cp -a templates/lxde .
+
+## templating
+
+[ -d ./etc ] && rm -rf ./etc
+[ -d ./usr ] && rm -rf ./usr
+[ -d ./lxterminal ] && rm -rf ./lxterminal
+cp -a templates/* .
+
+
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    templates/lxde/etc/skel/config/pcmanfm/main.lxde \
-    > lxde/etc/skel/config/pcmanfm/main.lxde
+    template/etc/skel/config/pcmanfm/main.lxde \
+    > etc/skel/config/pcmanfm/main.lxde
 
 
 grub_template lxde
