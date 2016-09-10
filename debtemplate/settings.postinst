@@ -23,8 +23,6 @@ case "$1" in
         cp -af /usr/share/@CODENAME_SAFE@-lxde-settings/etc/dconf          /etc
         ## grub ##
         cp -afv /usr/share/@CODENAME_SAFE@-lxde-settings/etc/default       /etc
-        ## schemas ##
-        cp -afv /usr/share/@CODENAME_SAFE@-lxde-settings/schemas           /usr/share/glib-2.0
         ## share ##
         cp -afv /usr/share/@CODENAME_SAFE@-lxde-settings/lxterminal        /usr/share
         ## skel ##
