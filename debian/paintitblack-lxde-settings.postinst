@@ -23,8 +23,6 @@ case "$1" in
         cp -af /usr/share/paintitblack-lxde-settings/etc/dconf          /etc
         ## grub ##
         cp -afv /usr/share/paintitblack-lxde-settings/etc/default       /etc
-        ## schemas ##
-        cp -afv /usr/share/paintitblack-lxde-settings/schemas           /usr/share/glib-2.0
         ## share ##
         cp -afv /usr/share/paintitblack-lxde-settings/lxterminal        /usr/share
         ## skel ##
