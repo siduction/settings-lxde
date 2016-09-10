@@ -68,7 +68,7 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
 [ -d ./etc ] && rm -rf ./etc
 [ -d ./usr ] && rm -rf ./usr
 [ -d ./lxterminal ] && rm -rf ./lxterminal
-cp -a templates/* .
+cp -a template/* .
 
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
