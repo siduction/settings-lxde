@@ -1,3 +1,9 @@
+patience-lxde-settings (2016.1.0~alpha-2) unstable; urgency=medium
+
+  * new bootstrap, new structure 
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 10 Sep 2016 23:19:37 +0200
+
 patience-lxde-settings (2016.1.0~alpha-1) unstable; urgency=medium
 
   * Initial Release.
