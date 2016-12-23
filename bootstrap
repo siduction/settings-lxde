@@ -36,7 +36,6 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     ./debtemplate/settings.postinst \
     > ./debian/${CODENAME_SAFE}-lxde-settings.postinst
 
-
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
     ./debtemplate/livesettings.install \
@@ -73,7 +72,7 @@ cp -a template/* .
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    template/etc/skel/config/pcmanfm/main.lxde \
+    ./template/etc/skel/config/pcmanfm/main.lxde \
     > etc/skel/config/pcmanfm/main.lxde
 
 
