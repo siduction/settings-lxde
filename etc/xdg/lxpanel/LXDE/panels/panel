@@ -128,13 +128,11 @@ Plugin {
   Config {
     DisplayType=1
     PerWinLayout=0
-    NoResetOpt=0
-    KeepSysLayouts=0
+    NoResetOpt=1
+    KeepSysLayouts=1
     Model=pc105
-    LayoutsList=@LAYOUTSLIST@
-    VariantsList=,
     ToggleOpt=grp:shift_caps_toggle
-    FlagSize=2
+    FlagSize=4
   }
 }
 Plugin {
