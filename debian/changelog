@@ -1,3 +1,9 @@
+patience-lxde-settings (2017.1.0-1) UNRELEASED; urgency=medium
+
+  * fix keyboard plugin refs #3
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 26 Jan 2017 18:54:12 +0100
+
 patience-lxde-settings (2016.1.0-1) unstable; urgency=medium
 
   * the release is near 
