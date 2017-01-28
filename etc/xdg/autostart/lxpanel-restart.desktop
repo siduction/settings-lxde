@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=LxpanelRestart
+Categories=Utility;
+Type=Application
+Exec=lxpanel-restart
+Terminal=false
+NoDisplay=false

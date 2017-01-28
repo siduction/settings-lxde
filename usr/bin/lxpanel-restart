@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ ! -f "${HOME}/.local/lxpanel-firstrun" ]; then
+    touch ${HOME}/.local/lxpanel-firstrun
+    sleep 5
+    lxpanelctl restart 
+fi

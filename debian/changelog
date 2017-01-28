@@ -1,8 +1,44 @@
-patience-lxde-settings (2017.1.0-1) UNRELEASED; urgency=medium
+patience-lxde-settings (2017.1.0-11) unstable; urgency=medium
 
-  * fix keyboard plugin refs #3
+  * added wait before lxpanel restart 
 
- -- Alf Gaida <agaida@siduction.org>  Thu, 26 Jan 2017 18:54:12 +0100
+ -- Alf Gaida <agaida@siduction.org>  Sat, 28 Jan 2017 01:50:05 +0100
+
+patience-lxde-settings (2017.1.0-10) unstable; urgency=medium
+
+  * lxpanel-restart added
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 27 Jan 2017 20:48:39 +0100
+
+patience-lxde-settings (2017.1.0-9) unstable; urgency=medium
+
+  * revert deleting language 
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 27 Jan 2017 18:21:46 +0100
+
+patience-lxde-settings (2017.1.0-8) unstable; urgency=medium
+
+  * next lxde settings for keyboard
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 27 Jan 2017 02:20:17 +0100
+
+patience-lxde-settings (2017.1.0-7) unstable; urgency=medium
+
+  * keyboards settings
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 27 Jan 2017 00:27:36 +0100
+
+patience-lxde-settings (2017.1.0-6) unstable; urgency=medium
+
+  * skel panel configuration
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 26 Jan 2017 23:58:51 +0100
+
+patience-lxde-settings (2017.1.0-5) unstable; urgency=medium
+
+  * fix keyboard plugin
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 26 Jan 2017 23:33:27 +0100
 
 patience-lxde-settings (2016.1.0-1) unstable; urgency=medium
 
