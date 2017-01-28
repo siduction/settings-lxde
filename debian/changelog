@@ -1,3 +1,10 @@
+patience-lxde-settings (2017.1.0-12) UNRELEASED; urgency=medium
+
+  * killed livesettings.postinst
+  * sleep 5 before lxpanel-restart 
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 28 Jan 2017 11:26:46 +0100
+
 patience-lxde-settings (2017.1.0-11) unstable; urgency=medium
 
   * added wait before lxpanel restart 
