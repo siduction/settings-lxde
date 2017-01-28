@@ -30,7 +30,6 @@ Architecture: all
 Depends: ${misc:Depends},
          lxpanel,
          lxterminal,
-         sidu-installer (>= 2014.01.10),
          siduction-icons,
          openbox | x-window-manager,
          @CODENAME_SAFE@-@FLAVOUR@-artwork,
