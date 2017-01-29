@@ -131,8 +131,6 @@ Plugin {
     NoResetOpt=1
     KeepSysLayouts=1
     Model=pc105
-    LayoutsList=none
-    VariantsList=,
     ToggleOpt=grp:shift_caps_toggle
     FlagSize=4
   }
