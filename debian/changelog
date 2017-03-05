@@ -1,9 +1,22 @@
-patience-lxde-settings (2017.1.0-12) UNRELEASED; urgency=medium
+patience-lxde-settings (2017.1.0-14) unstable; urgency=medium
+
+  * release branding
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 05 Mar 2017 17:50:07 +0100
+
+patience-lxde-settings (2017.1.0-13) unstable; urgency=medium
+
+  * remove lxpanel restart
+  * get rid of sidu-installer dependency
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 29 Jan 2017 12:42:43 +0100
+
+patience-lxde-settings (2017.1.0-12) unstable; urgency=medium
 
   * killed livesettings.postinst
   * sleep 5 before lxpanel-restart 
 
- -- Alf Gaida <agaida@siduction.org>  Sat, 28 Jan 2017 11:26:46 +0100
+ -- Alf Gaida <agaida@siduction.org>  Sun, 29 Jan 2017 12:41:58 +0100
 
 patience-lxde-settings (2017.1.0-11) unstable; urgency=medium
 
