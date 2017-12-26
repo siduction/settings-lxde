@@ -1,3 +1,15 @@
+patience-lxde-settings (2017.2.0-2) unstable; urgency=medium
+
+  * release 18.1 
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 26 Dec 2017 22:54:50 +0100
+
+patience-lxde-settings (2017.2.0-1) unstable; urgency=medium
+
+  *  fix behaviour for fixed apt and new release
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 25 Dec 2017 15:27:36 +0100
+
 patience-lxde-settings (2017.1.0-14) unstable; urgency=medium
 
   * release branding

@@ -4,9 +4,9 @@ Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
 Uploaders: Torsten Wohlfarth <towo@siduction.org>,
            Ovidiu Angelescu <convbsd@siduction.net>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 10),
                dh-systemd
-Standards-Version: 3.9.8
+Standards-Version: 4.1.2
 Homepage: https://git.siduction.org/extra/settings-lxde
 Vcs-Git: https://git.siduction.org/extra/settings-lxde.git
 Vcs-Browser: https://git.siduction.org/extra/settings-lxde.git
@@ -16,6 +16,8 @@ Package: patience-lxde-settings
 Architecture: all
 Depends: ${misc:Depends},
          lxde-common,
+         patience-lxde-artwork,
+         patience-sddm-settings | patience-lightdm-gtk-settings | patience-gdm3-settings,
          patience-common-settings
 Description: LXDE settings in installed mode
  Provides default settings for appearance and applications of the LXDE
