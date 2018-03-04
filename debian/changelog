@@ -1,18 +1,24 @@
+patience-lxde-settings (2018.2.0-1) unstable; urgency=medium
+
+  * release 18.2
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 04 Mar 2018 03:52:02 +0100
+
 patience-lxde-settings (2018.1.0-3) unstable; urgency=medium
 
-  * Refactored and re-bootstrapped  
+  * Refactored and re-bootstrapped
 
  -- Alf Gaida <agaida@siduction.org>  Sat, 20 Jan 2018 21:53:22 +0100
 
 patience-lxde-settings (2018.1.0-2) unstable; urgency=medium
 
-  * fix grub default 
+  * fix grub default
 
  -- Alf Gaida <agaida@siduction.org>  Wed, 27 Dec 2017 01:45:27 +0100
 
 patience-lxde-settings (2018.1.0-1) unstable; urgency=medium
 
-  * release 18.1 
+  * release 18.1
 
  -- Alf Gaida <agaida@siduction.org>  Tue, 26 Dec 2017 22:54:50 +0100
 
@@ -38,13 +44,13 @@ patience-lxde-settings (2017.1.0-13) unstable; urgency=medium
 patience-lxde-settings (2017.1.0-12) unstable; urgency=medium
 
   * killed livesettings.postinst
-  * sleep 5 before lxpanel-restart 
+  * sleep 5 before lxpanel-restart
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 29 Jan 2017 12:41:58 +0100
 
 patience-lxde-settings (2017.1.0-11) unstable; urgency=medium
 
-  * added wait before lxpanel restart 
+  * added wait before lxpanel restart
 
  -- Alf Gaida <agaida@siduction.org>  Sat, 28 Jan 2017 01:50:05 +0100
 
@@ -56,7 +62,7 @@ patience-lxde-settings (2017.1.0-10) unstable; urgency=medium
 
 patience-lxde-settings (2017.1.0-9) unstable; urgency=medium
 
-  * revert deleting language 
+  * revert deleting language
 
  -- Alf Gaida <agaida@siduction.org>  Fri, 27 Jan 2017 18:21:46 +0100
 
@@ -86,13 +92,13 @@ patience-lxde-settings (2017.1.0-5) unstable; urgency=medium
 
 patience-lxde-settings (2016.1.0-1) unstable; urgency=medium
 
-  * the release is near 
+  * the release is near
 
  -- Alf Gaida <agaida@siduction.org>  Fri, 23 Dec 2016 18:29:09 +0100
 
 patience-lxde-settings (2016.1.0~alpha-2) unstable; urgency=medium
 
-  * new bootstrap, new structure 
+  * new bootstrap, new structure
 
  -- Alf Gaida <agaida@siduction.org>  Sat, 10 Sep 2016 23:19:37 +0200
 
