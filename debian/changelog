@@ -1,6 +1,12 @@
+paintitblack-lxde-settings (2018.3.0-1) unstable; urgency=medium
+
+  * bootstrap for 2018.3.0
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 15 Apr 2018 17:36:27 +0200
+
 paintitblack-lxde-settings (2017.01.26) unstable; urgency=medium
 
-  * fix panel keyboard plugin 
+  * fix panel keyboard plugin
 
  -- Alf Gaida <agaida@siduction.org>  Thu, 26 Jan 2017 18:52:33 +0100
 
@@ -32,13 +38,13 @@ paintitblack-lxde-settings (2016.04.11) unstable; urgency=medium
 
 paintitblack-lxde-settings (2016.04.10.1) unstable; urgency=medium
 
-  * breeze theme set in openbox rc.xml 
+  * breeze theme set in openbox rc.xml
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 10 Apr 2016 18:52:14 +0200
 
 paintitblack-lxde-settings (2016.04.10) unstable; urgency=medium
 
-  * new bootstrap, fixing openbox design and fonts 
+  * new bootstrap, fixing openbox design and fonts
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 10 Apr 2016 14:21:00 +0200
 
@@ -64,13 +70,13 @@ paintitblack-lxde-settings (2016.03.25) unstable; urgency=medium
 
 paintitblack-lxde-settings (2015.12.29) unstable; urgency=medium
 
-  * new bootstrap 
+  * new bootstrap
 
  -- Alf Gaida <agaida@siduction.org>  Wed, 30 Dec 2015 02:59:32 +0100
 
 paintitblack-lxde-settings (2015.08.01) unstable; urgency=medium
 
-  * new package, reworked 
+  * new package, reworked
 
  -- Alf Gaida <agaida@siduction.org>  Sat, 08 Aug 2015 17:05:41 +0200
 

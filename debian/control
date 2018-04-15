@@ -4,18 +4,20 @@ Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
 Uploaders: Torsten Wohlfarth <towo@siduction.org>,
            Ovidiu Angelescu <convbsd@siduction.net>
-Build-Depends: debhelper (>= 9),
-               dh-systemd
-Standards-Version: 3.9.8
-Homepage: https://git.siduction.org/extra/settings-lxde
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.4
+Vcs-Browser: https://git.siduction.org/extra/settings-lxde
 Vcs-Git: https://git.siduction.org/extra/settings-lxde.git
-Vcs-Browser: https://git.siduction.org/extra/settings-lxde.git
+Homepage: https://git.siduction.org/extra/settings-lxde
 
-# lxde Settings
 Package: paintitblack-lxde-settings
 Architecture: all
 Depends: ${misc:Depends},
          lxde-common,
+         paintitblack-lxde-artwork,
+         paintitblack-sddm-settings
+	 | paintitblack-lightdm-gtk-settings
+	 | paintitblack-gdm3-settings,
          paintitblack-common-settings
 Description: LXDE settings in installed mode
  Provides default settings for appearance and applications of the LXDE
@@ -30,7 +32,6 @@ Architecture: all
 Depends: ${misc:Depends},
          lxpanel,
          lxterminal,
-         sidu-installer (>= 2014.01.10),
          siduction-icons,
          openbox | x-window-manager,
          paintitblack-lxde-artwork,
