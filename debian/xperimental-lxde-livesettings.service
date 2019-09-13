@@ -1,0 +1,11 @@
+[Unit]
+Description=LXDE cheatcodes in live media
+ConditionPathExists=/usr/share/xperimental-lxde-livesettings/
+After=xperimental-common-livesettings.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/xperimental-lxde-livesettings/lxde-cheatcodes start
+
+[Install]
+WantedBy=graphical.target

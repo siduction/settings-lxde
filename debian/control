@@ -1,24 +1,24 @@
-Source: paintitblack-lxde-settings
+Source: xperimental-lxde-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
 Uploaders: Torsten Wohlfarth <towo@siduction.org>,
            Ovidiu Angelescu <convbsd@siduction.net>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.4
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.0
 Vcs-Browser: https://git.siduction.org/extra/settings-lxde
 Vcs-Git: https://git.siduction.org/extra/settings-lxde.git
 Homepage: https://git.siduction.org/extra/settings-lxde
 
-Package: paintitblack-lxde-settings
+Package: xperimental-lxde-settings
 Architecture: all
 Depends: ${misc:Depends},
          lxde-common,
-         paintitblack-lxde-artwork,
-         paintitblack-sddm-settings
-	 | paintitblack-lightdm-gtk-settings
-	 | paintitblack-gdm3-settings,
-         paintitblack-common-settings
+         xperimental-lxde-artwork,
+         xperimental-sddm-settings
+	 | xperimental-lightdm-gtk-settings
+	 | xperimental-gdm3-settings,
+         xperimental-common-settings
 Description: LXDE settings in installed mode
  Provides default settings for appearance and applications of the LXDE
  desktop.
@@ -27,19 +27,19 @@ Description: LXDE settings in installed mode
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: paintitblack-lxde-livesettings
+Package: xperimental-lxde-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          lxpanel,
          lxterminal,
          siduction-icons,
          openbox | x-window-manager,
-         paintitblack-lxde-artwork,
-         paintitblack-lxde-settings,
-         paintitblack-common-livesettings,
-         paintitblack-sddm-livesettings
-         | paintitblack-ligthdm-gtk-livesettings
-         | paintitblack-gdm3-livesettings
+         xperimental-lxde-artwork,
+         xperimental-lxde-settings,
+         xperimental-common-livesettings,
+         xperimental-sddm-livesettings
+         | xperimental-ligthdm-gtk-livesettings
+         | xperimental-gdm3-livesettings
 Description: LXDE settings in live mode
  Provides default settings for appearance and applications of the LXDE
  desktop in live mode.
