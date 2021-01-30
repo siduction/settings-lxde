@@ -1,4 +1,4 @@
-Source: patience-lxde-settings
+Source: c-blues-lxde-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,15 +10,15 @@ Vcs-Browser: https://git.siduction.org/extra/settings-lxde
 Vcs-Git: https://git.siduction.org/extra/settings-lxde.git
 Homepage: https://git.siduction.org/extra/settings-lxde
 
-Package: patience-lxde-settings
+Package: c-blues-lxde-settings
 Architecture: all
 Depends: ${misc:Depends},
          lxde-common,
-         patience-lxde-artwork,
-         patience-sddm-settings
-	 | patience-lightdm-gtk-settings
-	 | patience-gdm3-settings,
-         patience-common-settings
+         c-blues-lxde-artwork,
+         c-blues-sddm-settings
+	 | c-blues-lightdm-gtk-settings
+	 | c-blues-gdm3-settings,
+         c-blues-common-settings
 Description: LXDE settings in installed mode
  Provides default settings for appearance and applications of the LXDE
  desktop.
@@ -27,19 +27,19 @@ Description: LXDE settings in installed mode
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: patience-lxde-livesettings
+Package: c-blues-lxde-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          lxpanel,
          lxterminal,
          siduction-icons,
          openbox | x-window-manager,
-         patience-lxde-artwork,
-         patience-lxde-settings,
-         patience-common-livesettings,
-         patience-sddm-livesettings
-         | patience-ligthdm-gtk-livesettings
-         | patience-gdm3-livesettings
+         c-blues-lxde-artwork,
+         c-blues-lxde-settings,
+         c-blues-common-livesettings,
+         c-blues-sddm-livesettings
+         | c-blues-ligthdm-gtk-livesettings
+         | c-blues-gdm3-livesettings
 Description: LXDE settings in live mode
  Provides default settings for appearance and applications of the LXDE
  desktop in live mode.
