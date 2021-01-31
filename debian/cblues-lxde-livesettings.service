@@ -1,0 +1,11 @@
+[Unit]
+Description=LXDE cheatcodes in live media
+ConditionPathExists=/usr/share/cblues-lxde-livesettings/
+After=cblues-common-livesettings.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/cblues-lxde-livesettings/lxde-cheatcodes start
+
+[Install]
+WantedBy=graphical.target
