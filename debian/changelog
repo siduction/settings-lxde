@@ -1,3 +1,9 @@
+cblues-lxde-settings (2021.1.0-2) unstable; urgency=medium
+
+  * package latest changes up to commit a82f66b189
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Tue, 09 Feb 2021 15:51:14 +0100
+
 cblues-lxde-settings (2021.1.0-1) unstable; urgency=medium
 
   * fix codename safe
