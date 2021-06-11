@@ -1,3 +1,9 @@
+farewell-lxde-settings (2021.1.99-1) unstable; urgency=medium
+
+  * prepare farewell packaging
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Fri, 11 Jun 2021 08:58:41 +0200
+
 cblues-lxde-settings (2021.1.0-2) unstable; urgency=medium
 
   * package latest changes up to commit a82f66b189

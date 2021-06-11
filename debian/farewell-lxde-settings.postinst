@@ -20,25 +20,25 @@ set_lxde_background() {
 case "$1" in
     configure)
         ## dconf ##
-        cp -af /usr/share/cblues-lxde-settings/etc/dconf          /etc
+        cp -af /usr/share/farewell-lxde-settings/etc/dconf          /etc
         ## grub ##
-        cp -afv /usr/share/cblues-lxde-settings/etc/default       /etc
+        cp -afv /usr/share/farewell-lxde-settings/etc/default       /etc
         ## share ##
-        cp -afv /usr/share/cblues-lxde-settings/lxterminal        /usr/share
+        cp -afv /usr/share/farewell-lxde-settings/lxterminal        /usr/share
         ## skel ##
-        cp -af /usr/share/cblues-lxde-settings/etc/skel/config    /etc/skel/.config
-        cp -af /usr/share/cblues-lxde-settings/etc/skel/dmrc      /etc/skel/.dmrc
-        cp -af /usr/share/cblues-lxde-settings/etc/skel/gitconfig /etc/skel/.gitconfig
-        cp -af /usr/share/cblues-lxde-settings/etc/skel/gitignore /etc/skel/.gitignore
-        cp -af /usr/share/cblues-lxde-settings/etc/skel/language  /etc/skel/.language
+        cp -af /usr/share/farewell-lxde-settings/etc/skel/config    /etc/skel/.config
+        cp -af /usr/share/farewell-lxde-settings/etc/skel/dmrc      /etc/skel/.dmrc
+        cp -af /usr/share/farewell-lxde-settings/etc/skel/gitconfig /etc/skel/.gitconfig
+        cp -af /usr/share/farewell-lxde-settings/etc/skel/gitignore /etc/skel/.gitignore
+        cp -af /usr/share/farewell-lxde-settings/etc/skel/language  /etc/skel/.language
         ## xdg ##
-        cp -afv /usr/share/cblues-lxde-settings/etc/xdg            /etc
+        cp -afv /usr/share/farewell-lxde-settings/etc/xdg            /etc
         ## settings ##
         glib-compile-schemas /usr/share/glib-2.0/schemas
         dconf update
         set_lxde_background
-        if [ -f /usr/share/cblues-lxde-settings/set-lxde-settings ]; then
-            /usr/share/cblues-lxde-settings/set-lxde-settings /etc/skel root root
+        if [ -f /usr/share/farewell-lxde-settings/set-lxde-settings ]; then
+            /usr/share/farewell-lxde-settings/set-lxde-settings /etc/skel root root
         fi
     ;;
 

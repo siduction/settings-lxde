@@ -1,4 +1,4 @@
-Source: cblues-lxde-settings
+Source: farewell-lxde-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,15 +10,15 @@ Vcs-Browser: https://git.siduction.org/extra/settings-lxde
 Vcs-Git: https://git.siduction.org/extra/settings-lxde.git
 Homepage: https://git.siduction.org/extra/settings-lxde
 
-Package: cblues-lxde-settings
+Package: farewell-lxde-settings
 Architecture: all
 Depends: ${misc:Depends},
          lxde-common,
-         cblues-lxde-artwork,
-         cblues-sddm-settings
-	 | cblues-lightdm-gtk-settings
-	 | cblues-gdm3-settings,
-         cblues-common-settings
+         farewell-lxde-artwork,
+         farewell-sddm-settings
+	 | farewell-lightdm-gtk-settings
+	 | farewell-gdm3-settings,
+         farewell-common-settings
 Description: LXDE settings in installed mode
  Provides default settings for appearance and applications of the LXDE
  desktop.
@@ -27,19 +27,19 @@ Description: LXDE settings in installed mode
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: cblues-lxde-livesettings
+Package: farewell-lxde-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          lxpanel,
          lxterminal,
          siduction-icons,
          openbox | x-window-manager,
-         cblues-lxde-artwork,
-         cblues-lxde-settings,
-         cblues-common-livesettings,
-         cblues-sddm-livesettings
-         | cblues-ligthdm-gtk-livesettings
-         | cblues-gdm3-livesettings
+         farewell-lxde-artwork,
+         farewell-lxde-settings,
+         farewell-common-livesettings,
+         farewell-sddm-livesettings
+         | farewell-ligthdm-gtk-livesettings
+         | farewell-gdm3-livesettings
 Description: LXDE settings in live mode
  Provides default settings for appearance and applications of the LXDE
  desktop in live mode.
