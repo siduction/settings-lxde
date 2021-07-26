@@ -1,5 +1,7 @@
 [Default Applications]
 inode/directory=pcmanfm.desktop
+application/pdf=qpdfview.desktop
 
 [Added Associations]
 inode/directory=pcmanfm.desktop;
+application/pdf=qpdfview.desktop
