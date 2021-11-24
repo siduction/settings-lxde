@@ -23,6 +23,10 @@ case "$1" in
         cp -af /usr/share/wintersky-lxde-settings/etc/dconf          /etc
         ## grub ##
         cp -afv /usr/share/wintersky-lxde-settings/etc/default       /etc
+        ## NetworkManager ##
+        cp -af /usr/share/wintersky-xorg-settings/etc/NetworkManager           /etc
+        ## iwd ##
+        cp -af /usr/share/wintersky-xorg-settings/etc/iwd                      /etc
         ## share ##
         cp -afv /usr/share/wintersky-lxde-settings/lxterminal        /usr/share
         ## skel ##
