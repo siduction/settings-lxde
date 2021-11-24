@@ -1,4 +1,4 @@
-Source: 2021-03-lxde-settings
+Source: wintersky-lxde-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,15 +10,15 @@ Vcs-Browser: https://git.siduction.org/extra/settings-lxde
 Vcs-Git: https://git.siduction.org/extra/settings-lxde.git
 Homepage: https://git.siduction.org/extra/settings-lxde
 
-Package: 2021-03-lxde-settings
+Package: wintersky-lxde-settings
 Architecture: all
 Depends: ${misc:Depends},
          lxde-common,
-         2021-03-lxde-artwork,
-         2021-03-sddm-settings
-	 | 2021-03-lightdm-gtk-settings
-	 | 2021-03-gdm3-settings,
-         2021-03-common-settings
+         wintersky-lxde-artwork,
+         wintersky-sddm-settings
+	 | wintersky-lightdm-gtk-settings
+	 | wintersky-gdm3-settings,
+         wintersky-common-settings
 Description: LXDE settings in installed mode
  Provides default settings for appearance and applications of the LXDE
  desktop.
@@ -27,19 +27,19 @@ Description: LXDE settings in installed mode
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: 2021-03-lxde-livesettings
+Package: wintersky-lxde-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          lxpanel,
          lxterminal,
          siduction-icons,
          openbox | x-window-manager,
-         2021-03-lxde-artwork,
-         2021-03-lxde-settings,
-         2021-03-common-livesettings,
-         2021-03-sddm-livesettings
-         | 2021-03-ligthdm-gtk-livesettings
-         | 2021-03-gdm3-livesettings
+         wintersky-lxde-artwork,
+         wintersky-lxde-settings,
+         wintersky-common-livesettings,
+         wintersky-sddm-livesettings
+         | wintersky-ligthdm-gtk-livesettings
+         | wintersky-gdm3-livesettings
 Description: LXDE settings in live mode
  Provides default settings for appearance and applications of the LXDE
  desktop in live mode.
